@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.hero{
+    background-image: url(../10-february/images/cow.png.jpg);
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.hero h1{
+    color:azure;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    word-spacing: 40px;
+    letter-spacing: 25px;
+    padding-top: 60px;
+}
+
+
+.article{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    /* margin: top/botton  left/right; */
+
+    background: #000;
+    color: white;
+    padding: 60px;
+    border-color: yellow;
+    border-width: 15px;
+    border-style: dashed;
+}
+
+.article h2{
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+.article p .imp{
+    font-size: 2rem;
+    background: yellow;
+    color: black;
+    padding: 5px;
+    width: 600px;
+    display: inline-block;
+}

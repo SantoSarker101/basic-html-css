@@ -11,6 +11,10 @@
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
+    /* clip-path: polygon(23% 40%, 23% 50%, 60% 30%); */
+    /* clip-path: polygon(0 62%, 36% 93%, 100% 66%); */
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 47% 100%, 0 84%);
+
 }
 
 .hero h1{
@@ -25,14 +29,14 @@
 }
 
 
-.article{
+.article, #cow-type{
     width: 80%;
     /* margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    /* margin: top/botton  left/right; */
+    /* margin: top/bottom  left/right; */
 
     background: #000;
     color: white;
@@ -40,6 +44,8 @@
     border-color: yellow;
     border-width: 15px;
     border-style: dashed;
+    background: linear-gradient(10deg, yellow, blue, red);
+    /* background: linear-gradient(45deg, pink, rgb(122,122,244)); */
 }
 
 .article h2{
@@ -67,4 +73,20 @@
     padding: 5px;
     width: 600px;
     display: inline-block;
+}
+
+
+.cow-images{
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.cow-images div{
+    max-width: 300px;
+}
+
+.cow-images img{
+    width: 100%;
 }
